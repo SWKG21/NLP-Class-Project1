@@ -1,0 +1,13 @@
+6 code files are included in this folder:
+
+utils.py: this file gathers some tool functions which are used in other files.
+
+computeFeatures.py: this file compute feature values by calling functions in utils.py
+
+models.py: this file gathers functions for different machine learning models (tuning, training, prediction)
+
+feature_engineering.py: this is another full feature engineering procedure
+
+gaussianSimilarity.py: this file is specifically for calculating the Gaussian document representation and the document similarity based this representation (centroid similarity and covariance similarity)
+
+graphAlgorithm.py: this file calculates some graphical features, and try to predict links just with these graphical information without considering textual information.
